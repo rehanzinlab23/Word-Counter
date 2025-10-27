@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="shortcut icon" href="img/wordcounter.png" type="image/x-icon">
+     <title>Woro</title>
+     <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+     <div class="container">
+
+          <!-- Card -->
+
+          <div class="card">
+
+               <!-- Header -->
+
+               <div class="header">
+                    <h2><span class="icon">📝</span> Woro</h2>
+                    <div class="actions">
+                         <button id="clear" class="btn" title="Clear">🗑️</button>
+                         <button id="themeToggle" class="btn" title="Toggle Theme">🌙</button>
+                    </div>
+               </div>
+
+               <!-- TextArea -->
+
+               <textarea id="text" placeholder="Type or paste your text here to start counting words..."></textarea>
+
+               <!-- Stats -->
+
+               <div class="stats">
+                    <div><span>Words:</span> <strong id="wordCount">0</strong></div>
+                    <div><span>Characters:</span> <strong id="charCount">0</strong></div>
+                    <div><span>No Spaces:</span> <strong id="noSpaceCount">0</strong></div>
+                    <div><span>Sentences:</span> <strong id="sentenceCount">0</strong></div>
+                    <div><span>Paragraphs:</span> <strong id="paraCount">0</strong></div>
+                    <div class="readtime"><span>Avg. Read Time:</span> <strong id="readTime">0 min</strong></div>
+               </div>
+
+               <!-- Footer -->
+
+               <div class="footer">
+                    <button class="bold" id="bold"><i class="fa-solid fa-bold"></i></button>
+                    <button class="italic" id="italic"><i class="fa-solid fa-italic"></i></button>
+                    <button class="uppercase" id="uppercase"><i class="fa-solid fa-a"></i></button>
+                    <button class="lowercase" id="lowercase"><strong>a</strong></button>
+               </div>
+          </div>
+     </div>
+
+     <script src="main.js"></script>
+</body>
+
+</html>
