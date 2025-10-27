@@ -185,6 +185,22 @@ body.dark .actions i {
      color: #66ffcc;
 }
 
+body.dark .bold i {
+     color: #66ffcc;
+}
+
+body.dark .italic i {
+     color: #66ffcc;
+}
+
+body.dark .uppercase i {
+     color: #66ffcc;
+}
+
+body.dark .lowercase i {
+     color: #66ffcc;
+}
+
 body.dark .readtime {
      background: #1b2d3b;
      border-color: #66ffcc;
