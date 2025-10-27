@@ -13,6 +13,13 @@ const bold = document.getElementById('bold');
 const italic = document.getElementById('italic');
 const uppercase = document.getElementById('uppercase');
 const lowercase = document.getElementById('lowercase');
+const copy = document.getElementById('copy');
+
+// Copy To Clipboard
+
+copy.addEventListener('click', () => {
+navigator.clipboard.writeText(textArea.value)
+});
 
 // Function to count words
 
